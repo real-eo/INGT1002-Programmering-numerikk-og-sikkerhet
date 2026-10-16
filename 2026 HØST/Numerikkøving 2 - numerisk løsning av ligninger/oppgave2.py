@@ -12,10 +12,10 @@ def logIter(n, x_n):
 
 X_0 = 0.8               
 
-X_n = X_0                  # n = 0
+X_n = X_0                   # n = 0
 
 logIter(0, X_n)
 
 for n in range(1, 20):
     X_n = iterStep(X_n)     # Compute X_(n+1) using iterStep
-    logIter(n, X_n)  # Log the results for this iteration
+    logIter(n, X_n)         # Log the results for this iteration
